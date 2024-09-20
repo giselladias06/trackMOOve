@@ -1,0 +1,210 @@
+/* custom.css */
+
+/* Increase header height to fit larger logos */
+.main-header .logo {
+    height: 60px; /* Adjust as needed */
+    padding: 0;
+    width: auto;
+}
+
+/* Apply dark blue color to all h1 elements */
+h1 {
+    color: #1C4E80;  /* Dark blue */
+}
+
+.main-header .navbar {
+    min-height: 60px; /* Adjust to match the logo height */
+}
+
+.main-header .logo img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.main-header .navbar-custom-menu {
+    float: right;
+}
+
+/* Add padding to the sidebar menu to push content down */
+.sidebar-menu {
+    padding-top: 80px; /* Adjust based on the height of your logo */
+}
+
+/* Sidebar styling */
+.main-sidebar {
+    background-color: #1C4E80!important; /* Ensure it takes precedence */
+    color: #ffffff;
+}
+
+.sidebar-menu {
+    color: #ffffff;
+}
+
+.sidebar-menu > li > a {
+    color: #ffffff;
+}
+
+.sidebar-menu > li.active > a {
+    background-color: #F1F1F1;
+    color: #ffffff;
+}
+
+.sidebar-menu > li:hover > a {
+    background-color: #F1F1F1;
+    color: #ffffff;
+}
+
+/* Dashboard body background */
+.content-wrapper, .right-side {
+    background-color: #F1F1F1;
+    color: #ffffff; /* Default text color */
+}
+
+/* Box styling */
+.box {
+    border: 1px solid #1C4E80;
+    background-color: #1C4E80;
+    color: #ffffff;
+}
+
+.box-header {
+    background-color: #1C4E80;
+    color: #ffffff;
+}
+
+.box-title {
+    color: #ffffff;
+}
+
+.box-body {
+    color: #ffffff;
+}
+
+/* Main title header styling */
+.main-header h1, .main-header h2, .main-header h3 {
+    color: #1C4E80; /* Ensure the title text is visible */
+    background-color: #ffffff; /* Set a contrasting background color */
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Calendar styling */
+.datepicker {
+    background-color: #ffffff !important; /* White background for the calendar */
+    color: #000000 !important; /* Default text color */
+}
+
+.datepicker table tr td {
+    background-color: #ffffff !important; /* White background for the calendar cells */
+    color: #d3d3d3 !important; /* Light gray text for all dates initially */
+}
+
+/* Available dates (within min and max date range) */
+.datepicker table tr td.available {
+    color: #1C4E80 !important; /* Dark blue color for available dates */
+}
+
+/* Unavailable dates (outside min and max date range) */
+.datepicker table tr td.unavailable {
+    color: #d3d3d3 !important; /* Light gray color for unavailable dates */
+}
+
+/* Selected date */
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover {
+    background-color: #1C4E80 !important; /* Dark blue background for the selected date */
+    color: #ffffff !important; /* White text for the selected date */
+}
+
+/* Blue background for the range of selected dates */
+.datepicker table tr td.range {
+    background-color: #1C4E80 !important; /* Blue background for selected range */
+    color: #ffffff !important; /* White text for the selected range */
+}
+
+/* Hover effect for available dates */
+.datepicker table tr td.available:hover {
+    background-color: #1C4E80 !important; /* Dark blue background on hover */
+    color: #ffffff !important; /* White text on hover */
+}
+
+
+
+/* TabBox styling */
+.nav-tabs-custom > .nav-tabs > li.active {
+    border-top-color: #1C4E80; /* Active tab color */
+}
+
+.nav-tabs-custom > .nav-tabs > li.active > a {
+    background-color: #1C4E80; /* Active tab background */
+    color: #ffffff; /* Active tab text color */
+}
+
+.nav-tabs-custom > .nav-tabs > li > a {
+    background-color: #F1F1F1; /* Inactive tab background */
+    color: #ffffff; /* Inactive tab text color */
+}
+
+.nav-tabs-custom > .nav-tabs > li > a:hover {
+    background-color: #1C4E80; /* Hover tab background */
+    color: #ffffff; /* Hover tab text color */
+}
+
+/* Ensure text and elements are readable */
+body, h1, h2, h3, h4, h5, h6, p, .content, .main-sidebar .user-panel, .main-sidebar .user-panel .info {
+    color: #ffffff;
+}
+
+a {
+    color: #ffcc00; /* Adjust link color to be readable */
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+/* Additional adjustments for specific elements if needed */
+.content-wrapper, .main-footer {
+    background-color: #F1F1F1;
+}
+
+/* Specific styling for the "Sobre" tab content */
+#sobre-content p {
+    color: #000000; /* Black text for better readability against the light background */
+}
+
+#sobre-content h3 {
+    color: #1C4E80; /* Dark blue color for headings */
+}
+
+/* DataTables styling */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #000 !important;  /* Change the pagination button color to black */
+}
+
+table.dataTable {
+    background-color: white !important; /* Change the table background to white */
+    color: black !important;            /* Ensure text is black for readability */
+    table-layout: auto;                 /* Let the table auto-adjust its layout */
+    width: 100%;                        /* Ensure the table takes the full width */
+    height: 100%;                       /* Make the table take the full height */
+}
+
+.box .dataTables_wrapper {
+    width: 100%;                        /* Make the table take up the full width of the box */
+    height: 100%;                       /* Make the table take up the full height of the box */
+    overflow-x: auto;                   /* Enable horizontal scrolling if necessary */
+    display: flex;
+    flex-direction: column;
+}
+
+.dataTables_scrollBody {
+    flex-grow: 1;                       /* Allow the table body to expand and take up the available height */
+}
+
+.dataTables_wrapper {
+    margin: 0 auto;                     /* Center the table in its container */
+}
+
