@@ -179,6 +179,10 @@ a:hover {
     color: #1C4E80; /* Dark blue color for headings */
 }
 
+#sobre-content li {
+    color: #000000; /* Black text for the list items */
+}
+
 /* DataTables styling */
 .dataTables_wrapper .dataTables_paginate .paginate_button {
     color: #000 !important;  /* Change the pagination button color to black */
