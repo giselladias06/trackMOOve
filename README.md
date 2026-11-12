@@ -13,6 +13,7 @@ The fictional country and its farm register come from the Sentara repository: ht
 To use real movement data, replace data/sentara_movements_sample_2024_h1.csv with a file that has the same columns (see below).
 
 Repository contents
+
 trackmoove/
 ├── global.R      # loads libraries and the data once
 ├── ui.R          # user interface
