@@ -1,0 +1,11 @@
+abattoir_id,name,inspection_type,district_code,district,province_code,province
+50001,Abattoir 01,SIF,XSN-CL-08,Millbrook,XSN-CL,Centerland
+50002,Abattoir 02,SIF,XSN-NL-06,Pinevale,XSN-NL,Northland
+50003,Abattoir 03,SIE,XSN-SL-05,Tidewater,XSN-SL,Southland
+50004,Abattoir 04,SIM,XSN-WL-03,Rivergate,XSN-WL,Westland
+50005,Abattoir 05,SIF,XSN-EL-06,Sandford,XSN-EL,Eastland
+50006,Abattoir 06,SIF,XSN-NL-05,Birchwood,XSN-NL,Northland
+50007,Abattoir 07,SIE,XSN-WL-05,Goatsford,XSN-WL,Westland
+50008,Abattoir 08,SIF,XSN-SL-07,Lagoona,XSN-SL,Southland
+50009,Abattoir 09,SIF,XSN-EL-06,Sandford,XSN-EL,Eastland
+50010,Abattoir 10,SIM,XSN-EL-04,Verdemesa,XSN-EL,Eastland
